@@ -30,6 +30,6 @@ dotenv.config()
     app.use(json())
     app.use(urlencoded({extended:true}))
    
-    app.use("/auth",authRotes);
-    app.use("/property",propertyRoutes)
-    app.use("/user",userRoutes)
+    app.use("/api/auth",authRotes);
+    app.use("/api/property",propertyRoutes)
+    app.use("/api/user",userRoutes)
