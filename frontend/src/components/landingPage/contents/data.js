@@ -12,7 +12,7 @@ import {BsChatDotsFill} from  'react-icons/bs'
 
 export const herodata={
     title:'Place House faster easier'
-    ,subtitle:'place your house as you wish we will do what we can dude ok.'
+    ,subtitle:'place your house as you wish we will do what we can'
     ,btnText:'Get Started',
     image:HeroImg,
 }

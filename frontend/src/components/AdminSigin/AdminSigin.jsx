@@ -3,9 +3,11 @@ import { ToastContainer, toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch ,useSelector} from 'react-redux';
 import {adminDetails} from '../../redux/adminSlice';
+const mail=import.meta.env.VITE_ADMIN_EMAIL
+const pass=import.meta.env.VITE_ADMIN_PASSWORD
 const preDetails={
-  email:import.meta.env.VITE_ADMIN_EMAIL,
-  password:import.meta.env.VITE_ADMIN_PASSWORD
+  email:'jithin@gmail.com',
+  password:'123456'
 }
 
 

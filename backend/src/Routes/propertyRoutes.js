@@ -56,9 +56,6 @@ routes.post("/updateMaxCount/:id",property.updateMaxsubscription)
 routes.get("/walletDetails",property.getWalletDetails)
 
 
-
-
-
 routes.post('/upload',upload.array('files'),property.uploadProperty)
 export default routes
 
